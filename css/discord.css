@@ -160,17 +160,27 @@ p{
   background-image: url(../imgs/item4-big.svg);
   background-size: cover;
 }
+.voice-channel{
+  text-align: center;
+}
+
+.voice-channel button{
+  background-color: #7289DA;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
 
 .stars{
-  margin: 50px auto;
+  margin: auto;
+  margin-top: 50px;
   height: 100px;
   width: 550px;
   background-image: url(../imgs/stars.svg);
   background-size: contain;
   background-repeat: no-repeat;
   font-size: larger;
-  text-align: center;
-  padding: 30px 0;
+  padding-top: 30px;
 }
 
 footer .col {
