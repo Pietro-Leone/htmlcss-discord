@@ -117,7 +117,8 @@ h1{
 }
 
 p{
-  margin: 15px 0;
+  margin: 15px 60px 15px 0;
+  line-height: 1.7rem;
 }
 
 .hero-section button{
@@ -233,6 +234,7 @@ footer h3{
 .col ul{
   list-style: none;
   padding: 25px;
+  line-height: 1.7rem;
 }
 
 a{
