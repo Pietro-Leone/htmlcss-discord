@@ -46,6 +46,18 @@ footer {
   background-color: #F6F6F6;
 }
 
+.wave{
+  background-image: url(../imgs/wave.svg);
+  background-size: cover;
+  height: 200px;
+  fill: #F6F6F6;
+  filter: invert(0.96);
+}
+
+.wave.transform {
+  transform: rotate(180deg);
+}
+
 .nav-logo,
 .nav-login {
   min-width: 150px;
@@ -139,6 +151,23 @@ footer h3{
   width: 24px;
   height: 24px;
   margin: 25px 5px 0 0;
+}
+
+.lang-it{
+  height: 24px;
+  line-height: 24px;
+}
+
+.lang-it img{
+  margin: 10px 0;
+  vertical-align: middle;
+  height: 1.2rem;
+}
+
+.it{
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
 }
 
 .col-large,
