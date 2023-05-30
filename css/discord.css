@@ -43,7 +43,7 @@ footer {
 }
 
 .bg-grey {
-  background-color: #d3d3d3;
+  background-color: #F6F6F6;
 }
 
 .nav-logo,
@@ -125,7 +125,6 @@ p{
 
 .col-large,
 .col-small {
-  border: 1px dashed black;
   min-height: 500px;
 }
 
@@ -155,7 +154,6 @@ p{
 }
 
 .box-green {
-  border: 1px dashed black;
   min-height: 700px;
   background-image: url(../imgs/item4-big.svg);
   background-size: cover;
