@@ -11,9 +11,12 @@ body {
 }
 
 header {
-  background-color: #add8e6;
+  background-image: url(../imgs/jumbo.png);
+  background-size: cover;
   padding-top: 1rem;
   padding-bottom: 4px;
+  height: 700px;
+
 }
 
 header nav {
@@ -35,28 +38,18 @@ footer {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
-}
-
-.bg-yellow {
-  background-color: #daa520;
 }
 
 .bg-grey {
   background-color: #d3d3d3;
 }
 
-.nav-links,
-.nav-logo,
-.nav-login {
-  border: 1px dashed black;
-  padding: 0.5rem;
-}
-
 .nav-logo,
 .nav-login {
   min-width: 150px;
+  padding: 10px;
 }
 
 .nav-links {
@@ -67,29 +60,63 @@ footer {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 15px;
 }
 
 .nav-links ul a {
   display: inline-block;
   padding: 0 0.3rem;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .nav-login {
   text-align: right;
 }
 
+button{
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
 .hero-section {
-  background-color: #00008b;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 
 .hero-section .container {
-  max-width: 680px;
-  border: 1px dashed black;
+  max-width: 700px;
   min-height: 300px;
-  background-color: #ee82ee;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.hero-section .container h1 {
+  font-size: 3.2rem;
+  margin: 4rem;
+}
+
+h1{
+  font-size: 3.2rem;
+  margin-top: 3rem;
+}
+
+p{
+  margin: 15px 0;
+}
+
+.hero-section button{
+  padding: 15px 20px;
+  font-size: 1rem;
+}
+
+.hero-section button:last-child{
+  color: white;
+  background-color: black;
+  padding: 15px 20px;
 }
 
 .row {
@@ -99,23 +126,51 @@ footer {
 .col-large,
 .col-small {
   border: 1px dashed black;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .col-large {
   width: 60%;
-  background-color: #1e90ff;
+  /* background-color: #1e90ff; */
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
+  /* background-color: #ffc0cb; */
+}
+
+.study-group .col-large{
+  background-image: url(../imgs/item1.svg);
+  background-size: cover;
+}
+
+.voice-connect .col-large{
+  background-image: url(../imgs/item2.svg);
+  background-size: cover;
+}
+
+.community .col-large{
+  background-image: url(../imgs/item3.svg);
+  background-size: cover;
 }
 
 .box-green {
   border: 1px dashed black;
-  min-height: 500px;
-  background-color: #228b22;
+  min-height: 700px;
+  background-image: url(../imgs/item4-big.svg);
+  background-size: cover;
+}
+
+.stars{
+  margin: 50px auto;
+  height: 100px;
+  width: 550px;
+  background-image: url(../imgs/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: larger;
+  text-align: center;
+  padding: 30px 0;
 }
 
 footer .col {
