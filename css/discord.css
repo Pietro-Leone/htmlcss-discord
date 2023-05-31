@@ -50,8 +50,6 @@ footer {
   background-image: url(../imgs/wave.svg);
   background-size: cover;
   height: 200px;
-  fill: #F6F6F6;
-  filter: invert(0.96);
 }
 
 .wave.transform {
